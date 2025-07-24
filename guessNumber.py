@@ -8,6 +8,7 @@ print("If your guess is within 10 of my number, I'll tell you you're WARM")
 print("If your guess is farther than your most recent guess, I'll say you're getting COLDER")
 print("If your guess is closer than your most recent guess, I'll say you're getting WARMER")
 print("LET'S PLAY!")
+
 number = [0]
 while True:
     num = int(input('Enter a number between 1 and 100:\n'))
